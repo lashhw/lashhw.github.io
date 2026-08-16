@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: r13921038 [at] ntu [dot] edu [dot] tw
 
 profile:
   align: right
@@ -24,8 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am interested in **building efficient computing systems**, across machine learning systems, embedded systems, and hardware accelerators. Beyond that, I am also curious about **intelligence itself** — where it comes from, and what makes learning possible at all — which keeps me close to probabilistic modeling, information theory, statistics, and so on.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my M.S. in [Electrical Engineering](https://web.ee.ntu.edu.tw/) from [National Taiwan University](https://www.ntu.edu.tw/) in 2026, where I was fortunate to be advised by [Prof. Pi-Cheng Hsiu](https://homepage.citi.sinica.edu.tw/pages/pchsiu/) and [Prof. Ming-Syan Chen](https://arbor.ee.ntu.edu.tw/~mschen/). Prior to that, I received my B.S. in [Computer Science](https://www.cs.nycu.edu.tw/) from [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/) in 2024, where I had the privilege of conducting research with [Prof. Tsung Tai Yeh](https://people.cs.nycu.edu.tw/~ttyeh/).
