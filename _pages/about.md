@@ -24,8 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-## About me
-
 I am interested in **building efficient computing systems**, across machine learning systems, embedded systems, and hardware accelerators. Beyond that, I am also curious about **intelligence itself** — where it comes from, and what makes learning possible at all — which keeps me close to probabilistic modeling, information theory, statistics, and so on.
 
 I received my M.S. in [Electrical Engineering](https://web.ee.ntu.edu.tw/) from [National Taiwan University](https://www.ntu.edu.tw/) in 2026, where I was fortunate to be advised by [Prof. Pi-Cheng Hsiu](https://homepage.citi.sinica.edu.tw/pages/pchsiu/) and [Prof. Ming-Syan Chen](https://arbor.ee.ntu.edu.tw/~mschen/). Prior to that, I received my B.S. in [Computer Science](https://www.cs.nycu.edu.tw/) from [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/) in 2024, where I had the privilege of conducting research with [Prof. Tsung Tai Yeh](https://people.cs.nycu.edu.tw/~ttyeh/).
+
+I will be available for full-time positions starting in 2027. I am always happy to chat — feel free to reach out!
