@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: r13921038 [at] ntu [dot] edu [dot] tw
+subtitle:
 
 profile:
   align: right

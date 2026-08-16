@@ -11,7 +11,9 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    {% if page.subtitle %}
+      <p class="desc">{{ page.subtitle }}</p>
+    {% endif %}
   </header>
 
   <article>
@@ -84,11 +86,33 @@ layout: default
 </div>
 
 <style>
+  /* Puts the contact note on the same row as the icons, to their right. */
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
   .social .contact-icons {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5rem;
     font-size: 1.9rem;
     line-height: 1;
-    margin-bottom: 1rem;
+  }
+
+  /* Overrides the theme's 0.8rem, which is footnote-sized next to the icons. */
+  .social .contact-note {
+    font-size: 1rem;
+  }
+
+  /* Below 576px the profile image is full width, so the flex row has no space
+     beside the float and collapses on top of the image. Drop it below instead. */
+  @media (max-width: 575.98px) {
+    .social {
+      clear: both;
+    }
   }
 </style>
