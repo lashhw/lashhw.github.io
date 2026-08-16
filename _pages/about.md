@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: r13921038 [at] ntu [dot] edu [dot] tw
 
@@ -23,6 +23,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+## About Me
 
 I am interested in **building efficient computing systems**, across machine learning systems, embedded systems, and hardware accelerators. Beyond that, I am also curious about **intelligence itself** — where it comes from, and what makes learning possible at all — which keeps me close to probabilistic modeling, information theory, statistics, and so on.
 
