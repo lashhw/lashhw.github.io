@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-## About Me
+## About me
 
 I am interested in **building efficient computing systems**, across machine learning systems, embedded systems, and hardware accelerators. Beyond that, I am also curious about **intelligence itself** — where it comes from, and what makes learning possible at all — which keeps me close to probabilistic modeling, information theory, statistics, and so on.
 
