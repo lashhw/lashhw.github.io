@@ -20,6 +20,7 @@
   description: "Independently designed a 16-bit single-core CPU with a MIPS-like ISA and AXI4 interfaces for instruction and data memory, then carried it through the entire ASIC design flow from RTL to GDSII — logic synthesis, floorplanning, automatic place & route, and final layout generation. Verified with RTL, gate-level, and post-layout simulation, plus STA, LVS, and DRC using industry-standard CAD tools."
   venue: "Class Project, Integrated Circuit Design Laboratory (Prof. Chen-Yi Lee), NYCU"
   year: 2024
+  note: "Source code is not publicly available due to course policy."
 
 - title: "Circuit Routers based on Greedy, Heuristic, and SAT Algorithms"
   description: "Implemented channel, global, and detailed circuit routers based on foundational research papers, applying optimization techniques to NP-hard routing problems. Targeted the ISPD 2008 contest benchmarks for the global router and used MaxSAT/ILP solvers for exact detailed routing; all routers were validated against the provided specifications, achieving leading results among peers in the course."
@@ -48,4 +49,5 @@
   year: 2022
   selected: true
   links:
+    Video: https://www.youtube.com/watch?v=wCParWOSb5I
     Code: https://github.com/lashhw/AI-Final-Project

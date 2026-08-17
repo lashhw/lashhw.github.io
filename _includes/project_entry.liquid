@@ -22,6 +22,11 @@
         {%- endif %}
         {{ include.project.year }}
       </div>
+      {% if include.project.note %}
+        <div class="periodical text-muted">
+          <small>{{ include.project.note }}</small>
+        </div>
+      {% endif %}
       <div class="links">
         {% for link in include.project.links %}
           <a href="{{ link[1] }}" class="btn btn-sm z-depth-0" role="button">{{ link[0] }}</a>
