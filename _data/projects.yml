@@ -8,7 +8,7 @@
     Code: https://github.com/DLCV-Fall-2024/DLCV-Fall-2024-Final-1-uber603
 
 - title: "Hardware Design & Verification Flow for AQB8 Ray Tracing Accelerator"
-  description: "Completed the end-to-end development for the AQB8 accelerator behind our ISCA 2025 paper, from architectural exploration to implementation and final analysis. FPGA-based prototyping on Xilinx Zynq with Vitis HLS, Vivado, and PetaLinux; standard-cell ASIC flow on TSMC 40nm with Catapult HLS and Design Compiler; functional verification in QuestaSim and power analysis in PrimePower."
+  description: "Completed the end-to-end development for the AQB8 accelerator behind our ISCA 2025 paper, from architectural exploration to implementation and final analysis. FPGA-based prototyping on Xilinx Zynq with Vitis HLS, Vivado, and PetaLinux; standard-cell ASIC flow on TSMC 40nm with Catapult HLS and Design Compiler; functional verification with QuestaSim and power analysis with PrimePower."
   venue: "Research Project, Computer Architecture System Laboratory (Prof. Tsung Tai Yeh), NYCU"
   year: 2024
   selected: true
