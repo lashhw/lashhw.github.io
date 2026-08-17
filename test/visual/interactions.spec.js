@@ -6,7 +6,7 @@ test("publications Abs toggle opens and closes", async ({ page }) => {
   await page.goto("/al-folio/publications/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
-  const absButton = page.getByRole("button", { name: "Abs" }).first();
+  const absButton = page.getByRole("button", { name: "Abstract" }).first();
   await expect(absButton).toBeVisible();
 
   const panel = page.locator(".abstract.hidden").first();
