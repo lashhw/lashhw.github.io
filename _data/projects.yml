@@ -20,6 +20,7 @@
   description: "Independently designed a 16-bit single-core CPU with a MIPS-like ISA and AXI4 interfaces for instruction and data memory, then carried it through the entire ASIC design flow from RTL to GDSII — logic synthesis, floorplanning, automatic place & route, and final layout generation. Verified with RTL, gate-level, and post-layout simulation, plus STA, LVS, and DRC using industry-standard CAD tools."
   venue: "Class Project, Integrated Circuit Design Laboratory (Prof. Chen-Yi Lee), NYCU"
   year: 2024
+  selected: true
   note: "Source code is not publicly available due to course policy."
 
 - title: "Circuit Routers based on Greedy, Heuristic, and SAT Algorithms"
@@ -47,7 +48,6 @@
   description: "Led the team project awarded Best Project (out of 249 students) for an end-to-end real-time parking vacancy forecasting system. Designed the full architecture covering automated data collection, time-series model training, and real-time deployment. The LSTM model achieved low prediction error with inference fast enough for live requests, and was deployed as a serverless API on Azure Functions."
   venue: "Class Team Project, Introduction to Artificial Intelligence (Prof. Wen-Chih Peng), NYCU"
   year: 2022
-  selected: true
   links:
     Video: https://www.youtube.com/watch?v=wCParWOSb5I
     Code: https://github.com/lashhw/AI-Final-Project
