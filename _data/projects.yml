@@ -1,0 +1,24 @@
+- title: Example 1
+  description: Description 1
+  venue: Venue 1
+  year: 2023
+  selected: true
+  links:
+    Code: https://example.com/code1
+
+- title: Example 2
+  description: Description 2
+  venue: Venue 2
+  year: 2022
+  image: assets/img/3.jpg
+  selected: true
+  links:
+    Code: https://example.com/code2
+
+- title: Example 3
+  description: Description 3
+  venue: Venue 3
+  year: 2023
+  image: assets/img/5.jpg
+  links:
+    Code: https://example.com/code3

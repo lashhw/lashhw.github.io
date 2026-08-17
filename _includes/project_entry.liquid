@@ -1,0 +1,32 @@
+<li>
+  <div class="row">
+    <div class="col-sm-2 mb-2">
+      {% if include.project.image %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=include.project.image
+          sizes="200px"
+          class="preview z-depth-1 rounded"
+          zoomable=true
+          alt=include.project.title
+        %}
+      {% endif %}
+    </div>
+    <div class="col-sm-8">
+      <div class="title">{{ include.project.title }}</div>
+      <div class="author">{{ include.project.description }}</div>
+      <div class="periodical">
+        {% if include.project.venue -%}
+          <em>{{ include.project.venue }}</em>,
+        {%- endif %}
+        {{ include.project.year }}
+      </div>
+      <div class="links">
+        {% for link in include.project.links %}
+          <a href="{{ link[1] }}" class="btn btn-sm z-depth-0" role="button">{{ link[0] }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</li>
