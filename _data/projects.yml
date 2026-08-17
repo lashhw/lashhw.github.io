@@ -1,6 +1,6 @@
 - title: "Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving"
   description: "Led the team to 1st place (out of 12 teams) on multimodal understanding of autonomous driving corner cases. Enhanced LLaVA by combining LoRA fine-tuning with cross-attention layers that fuse segmentation, instance, depth, and ViT features, enabling the model to reason over complex driving scenarios. Also built a data augmentation pipeline over generated QA pairs to iteratively refine the training set."
-  venue: "Class Team Project, Deep Learning for Computer Vision (Prof. Yu-Chiang Frank Wang), NTU"
+  venue: "Course Team Project, Deep Learning for Computer Vision (Prof. Yu-Chiang Frank Wang), NTU"
   year: 2024
   selected: true
   links:
@@ -18,14 +18,14 @@
 
 - title: "Implementation of a Single-Core RISC CPU: From RTL to GDSII"
   description: "Independently designed a 16-bit single-core CPU with a MIPS-like ISA and AXI4 interfaces for instruction and data memory, then carried it through the entire ASIC design flow from RTL to GDSII — logic synthesis, floorplanning, automatic place & route, and final layout generation. Verified with RTL, gate-level, and post-layout simulation, plus STA, LVS, and DRC using industry-standard CAD tools."
-  venue: "Class Project, Integrated Circuit Design Laboratory (Prof. Chen-Yi Lee), NYCU"
+  venue: "Course Project, Integrated Circuit Design Laboratory (Prof. Chen-Yi Lee), NYCU"
   year: 2024
   selected: true
   note: "Source code is not publicly available due to course policy."
 
 - title: "Circuit Routers based on Greedy, Heuristic, and SAT Algorithms"
   description: "Implemented channel, global, and detailed circuit routers based on foundational research papers, applying optimization techniques to NP-hard routing problems. Targeted the ISPD 2008 contest benchmarks for the global router and used MaxSAT/ILP solvers for exact detailed routing; all routers were validated against the provided specifications, achieving leading results among peers in the course."
-  venue: "Class Project, The Applications of Algorithms on Routing Problems (Prof. Yih-Lang Li), NYCU"
+  venue: "Course Project, The Applications of Algorithms on Routing Problems (Prof. Yih-Lang Li), NYCU"
   year: 2023
   links:
     Code: https://github.com/lashhw/routing-lab
@@ -46,7 +46,7 @@
 
 - title: "Real-time Parking Vacancy Forecasting System"
   description: "Led the team project awarded Best Project (out of 249 students) for an end-to-end real-time parking vacancy forecasting system. Designed the full architecture covering automated data collection, time-series model training, and real-time deployment. The LSTM model achieved low prediction error with inference fast enough for live requests, and was deployed as a serverless API on Azure Functions."
-  venue: "Class Team Project, Introduction to Artificial Intelligence (Prof. Wen-Chih Peng), NYCU"
+  venue: "Course Team Project, Introduction to Artificial Intelligence (Prof. Wen-Chih Peng), NYCU"
   year: 2022
   links:
     Video: https://www.youtube.com/watch?v=wCParWOSb5I
