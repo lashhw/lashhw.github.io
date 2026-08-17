@@ -1,0 +1,66 @@
+<!--
+  Styles and behavior for the clamped project descriptions rendered by project_entry.liquid.
+  Included once per page, outside <ol class="bibliography">, which may only contain <li>.
+-->
+<style>
+  .project-description {
+    position: relative;
+  }
+  .project-description-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .project-description.expanded .project-description-text {
+    display: block;
+  }
+  /* Drawn over the end of the clamped line, so the toggle costs no extra height. */
+  .project-description-toggle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    border: 0;
+    background: var(--global-bg-color);
+    color: var(--global-text-color-light);
+    cursor: pointer;
+  }
+  /* Fades out the text running under the toggle; not part of the click target. */
+  .project-description-toggle::before {
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    width: 3rem;
+    background: linear-gradient(to right, transparent, var(--global-bg-color) 2rem);
+    pointer-events: none;
+  }
+  .project-description-toggle:hover {
+    text-decoration: underline;
+  }
+</style>
+<script>
+  (function () {
+    function refresh() {
+      document.querySelectorAll('.project-description').forEach(function (description) {
+        if (description.classList.contains('expanded')) return;
+        var text = description.querySelector('.project-description-text');
+        var toggle = description.querySelector('.project-description-toggle');
+        // A pixel of slack: scrollHeight and clientHeight round independently.
+        toggle.hidden = text.scrollHeight - text.clientHeight <= 1;
+      });
+    }
+    document.addEventListener('click', function (event) {
+      var toggle = event.target.closest('.project-description-toggle');
+      if (!toggle) return;
+      toggle.parentElement.classList.add('expanded');
+      toggle.hidden = true;
+    });
+    // Once as soon as the entries exist, then again after web fonts settle the line metrics.
+    document.addEventListener('DOMContentLoaded', refresh);
+    document.fonts.ready.then(refresh);
+    window.addEventListener('resize', refresh);
+  })();
+</script>

@@ -10,6 +10,8 @@ nav_order: 3
 
 {% assign years = site.data.projects | group_by: 'year' | sort: 'name' | reverse %}
 
+{% include project_description_assets.liquid %}
+
 <div class="publications">
   {% for year in years %}
     <h2 class="bibliography">{{ year.name }}</h2>

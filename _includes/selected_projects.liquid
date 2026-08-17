@@ -1,5 +1,7 @@
 {% assign years = site.data.projects | where: 'selected', true | group_by: 'year' | sort: 'name' | reverse %}
 
+{% include project_description_assets.liquid %}
+
 <div class="publications">
   <ol class="bibliography">
     {% for year in years %}

@@ -15,7 +15,10 @@
     </div>
     <div class="col-sm-10">
       <div class="title">{{ include.project.title }}</div>
-      <div class="author text-justify">{{ include.project.description }}</div>
+      <div class="author text-justify project-description">
+        <div class="project-description-text">{{ include.project.description }}</div>
+        <button type="button" class="project-description-toggle" hidden>… more</button>
+      </div>
       <div class="periodical">
         {% if include.project.venue -%}
           <em>{{ include.project.venue }}</em>,
