@@ -47,8 +47,7 @@
   description: "Collaboration with MediaTek on reducing the memory bandwidth demand of ray tracing (RT) accelerators on mobile platforms. Built a functional CUDA path tracer supporting physically-based rendering and parallel traversal, then designed a novel mixed-precision RT algorithm validated via SystemC/TLM simulation, achieving 20% memory savings for key RT data structures."
   venue: Research Project, NYCU &times; MediaTek Advanced Research Center (MARC)
   year: 2023
-  links:
-    Code: https://github.com/lashhw/rtcore-systemc
+  note: "Source code is not publicly available due to NDA restrictions."
 
 - title: "Real-time Parking Vacancy Forecasting System"
   image: assets/img/project_img_placeholder.jpg
