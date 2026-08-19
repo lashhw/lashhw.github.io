@@ -1,3 +1,11 @@
+- title: "Linux Kernel Programming: Syscall Interception and Page-Table Manipulation"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Built a loadable kernel module that hides itself from the module list, masquerades process names, and filters syscalls per-process by hooking the syscall table. Also added a custom ARM64 Linux syscall that exposes a process's page tables to user space, and built a <code>userfaultfd</code> handler that walks the page-table hierarchy to translate addresses and install page table entries on demand."
+  venue: "Course Team Project, Advanced Topics in Software Systems Design and Implementation (Prof. Shih-Wei Li), NTU"
+  year: 2025
+  links:
+    Code: https://github.com/lashhw/ssdi-hw
+
 - title: "Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving"
   image: assets/img/project_img_placeholder.jpg
   description: "Led the team to 1st place (out of 12 teams) on multimodal understanding of autonomous driving corner cases. Enhanced LLaVA by combining LoRA fine-tuning with cross-attention layers that fuse segmentation, instance, depth, and ViT features, enabling the model to reason over complex driving scenarios. Also built a data augmentation pipeline over generated QA pairs to iteratively refine the training set."
