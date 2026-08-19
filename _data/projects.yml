@@ -34,6 +34,16 @@
   links:
     Code: https://github.com/lashhw/routing-lab
 
+- title: "Parallel Ray Tracer with SIMD, OpenMP, MPI, and CUDA"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Built a ray tracing renderer from scratch, then parallelized it with SIMD intrinsics, OpenMP, MPI, and CUDA, guided by a loop-level analysis of where parallelism actually pays off across pixels, samples, bounces, and vector components. Tuned the CUDA implementation further with coalesced memory access and a split-kernel design that lowers register pressure to improve occupancy."
+  venue: "Course Team Project, Parallel Programming (Prof. Yi-Ping You), NYCU"
+  year: 2023
+  links:
+    Slides: https://github.com/lashhw/parallel-ray-tracer/blob/main/slides.pdf
+    Report: https://github.com/lashhw/parallel-ray-tracer/blob/main/report.pdf
+    Code: https://github.com/lashhw/parallel-ray-tracer
+
 - title: Memory-Efficient MultiHeadAttention Operator for TensorFlow Lite Micro
   image: assets/img/project_img_placeholder.jpg
   description: "Investigated the challenges of deploying Transformer models on microcontrollers (TinyML) through TensorFlow Lite for Microcontrollers, and identified the MultiHeadAttention layer as the critical SRAM bottleneck during on-device inference. Developed and implemented a custom TFLM operator that reduces peak SRAM requirement by over 90% (from 17MB to ~1MB) for the MobileViT-XXS model."
