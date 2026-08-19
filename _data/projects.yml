@@ -1,10 +1,19 @@
 - title: "Linux Kernel Programming: Syscall Interception and Page-Table Manipulation"
   image: assets/img/project_img_placeholder.jpg
-  description: "Built a loadable kernel module that hides itself from the module list, masquerades process names, and filters syscalls per-process by hooking the syscall table. Also added a custom ARM64 Linux syscall that exposes a process's page tables to user space, and built a <code>userfaultfd</code> handler that walks the page-table hierarchy to translate addresses and install page table entries on demand."
+  description: "Built a loadable kernel module that hides itself from the module list, masquerades process names, and filters syscalls per-process by hooking the syscall table. Also added a custom ARM64 Linux syscall that exposes a process's page tables to user space, and built a <code>userfaultfd</code> handler that walks the page-table hierarchy to translate addresses and install page-table entries on demand."
   venue: "Course Team Project, Advanced Topics in Software Systems Design and Implementation (Prof. Shih-Wei Li), NTU"
   year: 2025
   links:
     Code: https://github.com/lashhw/ssdi-hw
+ 
+- title: "Dataflow Graph Extraction in LLVM for High-Level Synthesis"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Built a custom LLVM compiler pass that turns C++ functions into dataflow graphs, making explicit the computational dependencies that hardware designers rely on to pipeline a design. Working on LLVM's intermediate representation rather than the syntax tree lets the pass compose with existing optimizations such as dead code elimination (DCE) and common subexpression elimination (CSE)."
+  venue: "Course Project, Advanced Compiler Design (Prof. Shih-Wei Liao), NTU"
+  year: 2024
+  links:
+    Report: https://github.com/lashhw/ntu-advanced-compiler-hw4/blob/main/report.pdf
+    Code: https://github.com/lashhw/ntu-advanced-compiler-hw4
 
 - title: "Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving"
   image: assets/img/project_img_placeholder.jpg
