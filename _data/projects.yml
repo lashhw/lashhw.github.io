@@ -68,7 +68,7 @@
 
 - title: "Object Detection of Water-Holding Containers for Dengue Mosquito Control"
   image: assets/img/project_img_placeholder.jpg
-  description: "Ranked 1st out of 27 teams on an AIdea object detection challenge for locating water-holding containers, the breeding sites of dengue-carrying mosquitoes. Fine-tuned COCO-pretrained YOLOv5 detectors and synthesized extra training images by pasting cut-out objects onto backgrounds, countering the severe class imbalance in the provided data."
+  description: "Ranked 1st (out of 27 teams) on an AIdea object detection challenge for locating water-holding containers, the breeding sites of dengue-carrying mosquitoes. Fine-tuned COCO-pretrained YOLOv5 detectors and synthesized extra training images by pasting cut-out objects onto backgrounds, countering the severe class imbalance in the provided data."
   venue: "Course Project, Introduction to Deep Learning and Applications (Prof. Hung-Hsun Chen), NYCU"
   year: 2021
   links:
