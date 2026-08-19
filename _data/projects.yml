@@ -34,6 +34,15 @@
   links:
     Code: https://github.com/lashhw/routing-lab
 
+- title: "Domain-Specific Accelerator for MLP Inference on an FPGA SoC"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Designed a domain-specific accelerator that offloads the MLP for handwritten digit recognition from an FPU-less soft-core CPU. Reordered the computation to keep the floating-point multiply-adder saturated, replicated the datapath for data parallelism, and overlapped host transfers with computation via BRAM-based ping-pong FIFOs, achieving a 309x speedup over the software-only baseline."
+  venue: "Course Project, Microprocessor Systems: Principles and Implementation (Prof. Chun-Jen Tsai), NYCU"
+  year: 2023
+  links:
+    Code: https://github.com/lashhw/mspi-dsa
+    Report: https://github.com/lashhw/mspi-dsa/blob/main/report.pdf
+
 - title: "Linux API Sandbox and Instruction-Level Debugger"
   image: assets/img/project_img_placeholder.jpg
   description: "Built two low-level Linux tools in C from scratch. The first enforces an API blacklist on unmodified binaries, injecting a shared library via <code>__libc_start_main()</code> and parsing the ELF to rewrite GOT entries, so file, network, and shell calls can be interposed. The second is a <code>ptrace</code>-based debugger with on-the-fly disassembly, gdb-style <code>int3</code> breakpoints, and a time-travel command backed by <code>fork()</code> snapshots."
