@@ -49,6 +49,14 @@
   year: 2023
   note: "Source code is not publicly available due to NDA restrictions."
 
+- title: "Implementation of a Mini-Pascal Compiler: From Source Code to JVM Bytecode"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Independently implemented a compiler for Mini-Pascal, a Pascal subset, covering a flex-based scanner, a bison LALR parser that builds the AST, semantic analysis over a scoped symbol table with static type checking and source-level error reporting, and a code generator emitting Jasmin assembly that is assembled into JVM bytecode. The resulting compiler correctly compiles and runs non-trivial programs such as quicksort and recursive Fibonacci."
+  venue: Course Project, Introduction to Compiler Design (Prof. Wuu Yang), NYCU
+  year: 2022
+  links:
+    Code: https://github.com/lashhw/mini-pascal-compiler
+
 - title: "Real-time Parking Vacancy Forecasting System"
   image: assets/img/project_img_placeholder.jpg
   description: "Led the team project awarded Best Project (out of 249 students) for an end-to-end real-time parking vacancy forecasting system. Designed the full architecture covering automated data collection, time-series model training, and real-time deployment. The LSTM model achieved low prediction error with inference fast enough for live requests, and was deployed as a serverless API on Azure Functions."
