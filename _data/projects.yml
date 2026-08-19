@@ -69,7 +69,7 @@
 
 - title: "Real-time Parking Vacancy Forecasting System"
   image: assets/img/project_img_placeholder.jpg
-  description: "Led the team project awarded Best Project (out of 249 students) for an end-to-end real-time parking vacancy forecasting system. Designed the full architecture covering automated data collection, time-series model training, and real-time deployment. The LSTM model achieved low prediction error with inference fast enough for live requests, and was deployed as a serverless API on Azure Functions."
+  description: "Led the team to Best Project (out of 249 students) with a system that forecasts vacancy at New Taipei City's public parking lots in real time. Designed the full architecture covering automated data collection, time-series model training, and interactive forecast charts. The LSTM model achieved low prediction error with inference fast enough for live requests, and was deployed as a serverless API on Azure Functions."
   venue: "Course Team Project, Introduction to Artificial Intelligence (Prof. Wen-Chih Peng), NYCU"
   year: 2022
   links:
