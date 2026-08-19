@@ -34,6 +34,14 @@
   links:
     Code: https://github.com/lashhw/routing-lab
 
+- title: "Linux API Sandbox and Instruction-Level Debugger"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Built two low-level Linux tools in C from scratch. The first enforces an API blacklist on unmodified binaries, injecting a shared library via <code>__libc_start_main()</code> and parsing the ELF to rewrite GOT entries, so file, network, and shell calls can be interposed. The second is a <code>ptrace</code>-based debugger with on-the-fly disassembly, gdb-style <code>int3</code> breakpoints, and a time-travel command backed by <code>fork()</code> snapshots."
+  venue: "Course Project, Advanced Programming in the UNIX Environment (Prof. Chun-Ying Huang), NYCU"
+  year: 2023
+  links:
+    Code: https://github.com/lashhw/unixprog-hw
+
 - title: "Parallel Ray Tracer with SIMD, OpenMP, MPI, and CUDA"
   image: assets/img/project_img_placeholder.jpg
   description: "Built a ray tracing renderer from scratch, then parallelized it with SIMD intrinsics, OpenMP, MPI, and CUDA, guided by a loop-level analysis of where parallelism actually pays off across pixels, samples, bounces, and vector components. Tuned the CUDA implementation further with coalesced memory access and a split-kernel design that lowers register pressure to improve occupancy."
