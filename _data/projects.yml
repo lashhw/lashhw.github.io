@@ -61,9 +61,9 @@
     Report: https://github.com/lashhw/parallel-ray-tracer/blob/main/report.pdf
     Code: https://github.com/lashhw/parallel-ray-tracer
 
-- title: Memory-Efficient MultiHeadAttention Operator for TensorFlow Lite Micro
+- title: Memory-Efficient Attention Operator for TensorFlow Lite Micro
   image: assets/img/project_img_placeholder.jpg
-  description: "Investigated the challenges of deploying Transformer models on microcontrollers (TinyML) through TensorFlow Lite for Microcontrollers, and identified the MultiHeadAttention layer as the critical SRAM bottleneck during on-device inference. Developed and implemented a custom TFLM operator that reduces peak SRAM requirement by over 90% (from 17MB to ~1MB) for the MobileViT-XXS model."
+  description: "Investigated the challenges of deploying Transformer models on microcontrollers (TinyML) through TensorFlow Lite for Microcontrollers, and identified the Multi-Head Attention layer as the critical SRAM bottleneck during on-device inference. Developed and implemented a custom TFLM operator that reduces peak SRAM requirement by over 90% (from 17MB to ~1MB) for the MobileViT-XXS model."
   venue: Summer Internship, Embedded and Mobile Computing Lab (Prof. Pi-Cheng Hsiu), Academia Sinica
   year: 2023
   links:
