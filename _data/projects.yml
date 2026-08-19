@@ -66,6 +66,14 @@
     Video: https://www.youtube.com/watch?v=wCParWOSb5I
     Code: https://github.com/lashhw/AI-Final-Project
 
+- title: "Object Detection of Water-Holding Containers for Dengue Mosquito Control"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Ranked 1st out of 27 teams on an AIdea object detection challenge for locating water-holding containers, the breeding sites of dengue-carrying mosquitoes. Fine-tuned COCO-pretrained YOLOv5 detectors and synthesized extra training images by pasting cut-out objects onto backgrounds, countering the severe class imbalance in the provided data."
+  venue: "Course Project, Introduction to Deep Learning and Applications (Prof. Hung-Hsun Chen), NYCU"
+  year: 2021
+  links:
+    Code: https://github.com/lashhw/Intro-to-DL-Final-Project
+
 - title: "Web-Based Search Tool for College Admission Requirements"
   image: assets/img/project_img_placeholder.jpg
   description: "Built a web tool that lets Taiwanese high school students look up which entrance-exam subjects and score thresholds each university department counts toward admission, consolidating information that is otherwise scattered across hundreds of pages on the official admission committees' sites. Since 2019, it has served 64,000 page views from 24,000 unique visitors."
