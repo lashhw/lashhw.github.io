@@ -116,4 +116,44 @@ layout: default
   .social .contact-note {
     font-size: 1rem;
   }
+
+  .post h2 {
+    margin-bottom: 0;
+  }
+
+  .post .publications {
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 575.98px) {
+    .post {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .post > article {
+      display: contents;
+    }
+
+    .post .profile.float-right,
+    .post .profile.float-left {
+      order: -1;
+      width: 55%;
+      max-width: 200px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .post .profile figure {
+      margin-bottom: 0;
+    }
+
+    .post .post-title {
+      font-size: 1.75rem;
+      text-align: center;
+    }
+
+    .social {
+      justify-content: center;
+    }
+  }
 </style>

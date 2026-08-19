@@ -1,8 +1,13 @@
 <!--
-  Styles and behavior for the clamped project descriptions rendered by project_entry.liquid.
+  Styles and behavior for the project entries rendered by project_entry.liquid.
   Included once per page, outside <ol class="bibliography">, which may only contain <li>.
 -->
 <style>
+  /* Roboto's cap height starts ~5.5px below the title's line-box top at 1rem/1.5,
+     so the preview needs the same nudge to look top-aligned with the text. */
+  .project-thumb figure {
+    margin-top: 0.35rem;
+  }
   .project-description {
     position: relative;
   }
