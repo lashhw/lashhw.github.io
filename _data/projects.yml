@@ -51,7 +51,7 @@
 
 - title: "Mini-Pascal Compiler: From Source Code to JVM Bytecode"
   image: assets/img/project_img_placeholder.jpg
-  description: "Independently designed a compiler for Mini-Pascal, a Pascal subset, covering a flex-based scanner, a bison LALR parser that builds the AST, semantic analysis over a scoped symbol table with static type checking, and a code generator emitting Jasmin assembly, assembled into JVM bytecode. The resulting compiler correctly compiles and runs non-trivial programs such as quicksort and recursive Fibonacci."
+  description: "Independently designed a compiler for Mini-Pascal, a Pascal subset, covering a flex-based scanner, a bison LALR parser that builds the AST, semantic analysis over a scoped symbol table with static type checking, and a code generator emitting Jasmin assembly that is assembled into JVM bytecode. The resulting compiler correctly compiles and runs non-trivial programs such as quicksort and recursive Fibonacci."
   venue: Course Project, Introduction to Compiler Design (Prof. Wuu Yang), NYCU
   year: 2022
   links:
