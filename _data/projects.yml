@@ -68,7 +68,7 @@
 
 - title: "Web-Based Search Tool for College Admission Requirements"
   image: assets/img/project_img_placeholder.jpg
-  description: "Built a web tool that lets Taiwanese high school students look up which entrance-exam subjects and score thresholds each university department counts toward admission, consolidating information that is otherwise scattered across hundreds of pages on the official admission committees' sites. Since February 2019, it has served 64,000 page views from 24,000 unique visitors."
+  description: "Built a web tool that lets Taiwanese high school students look up which entrance-exam subjects and score thresholds each university department counts toward admission, consolidating information that is otherwise scattered across hundreds of pages on the official admission committees' sites. Since 2019, it has served 64,000 page views from 24,000 unique visitors."
   venue: "Side Project"
   year: 2019
   links:
