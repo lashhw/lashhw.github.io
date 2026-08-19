@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-subtitle:
 chinese_name: 黃彥傑
 
 profile:
