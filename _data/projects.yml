@@ -18,7 +18,7 @@
     Paper: https://doi.org/10.1145/3695053.3731104
     Code: https://github.com/nycu-caslab/AQB8
 
-- title: "Implementation of a Single-Core RISC CPU: From RTL to GDSII"
+- title: "Design and Implementation of a Single-Core RISC CPU: From RTL to GDSII"
   image: assets/img/project_img_placeholder.jpg
   description: "Independently designed a 16-bit single-core CPU with a MIPS-like ISA and AXI4 interfaces for instruction and data memory, then carried it through the entire ASIC design flow from RTL to GDSII — logic synthesis, floorplanning, automatic place & route, and final layout generation. Verified with RTL, gate-level, and post-layout simulation, plus STA, LVS, and DRC using industry-standard CAD tools."
   venue: "Course Project, Integrated Circuit Design Laboratory (Prof. Chen-Yi Lee), NYCU"
@@ -73,6 +73,7 @@
   venue: "Course Team Project, Introduction to Artificial Intelligence (Prof. Wen-Chih Peng), NYCU"
   year: 2022
   links:
+    Slides: https://github.com/lashhw/AI-Final-Project/blob/main/Presentation_Team07.pdf
     Video: https://www.youtube.com/watch?v=wCParWOSb5I
     Code: https://github.com/lashhw/AI-Final-Project
 
