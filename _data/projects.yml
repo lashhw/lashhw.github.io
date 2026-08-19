@@ -48,8 +48,8 @@
   venue: "Course Project, Microprocessor Systems: Principles and Implementation (Prof. Chun-Jen Tsai), NYCU"
   year: 2023
   links:
-    Code: https://github.com/lashhw/mspi-dsa
     Report: https://github.com/lashhw/mspi-dsa/blob/main/report.pdf
+    Code: https://github.com/lashhw/mspi-dsa
 
 - title: "Linux API Sandbox and Instruction-Level Debugger"
   image: assets/img/project_img_placeholder.jpg
