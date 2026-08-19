@@ -5,7 +5,7 @@
   year: 2025
   links:
     Code: https://github.com/lashhw/ssdi-hw
- 
+
 - title: "Dataflow Graph Extraction in LLVM for High-Level Synthesis"
   image: assets/img/project_img_placeholder.jpg
   description: "Built a custom LLVM compiler pass that turns C++ functions into dataflow graphs, making explicit the computational dependencies that hardware designers rely on to pipeline a design. Working on LLVM's intermediate representation rather than the syntax tree lets the pass compose with existing optimizations such as dead code elimination (DCE) and common subexpression elimination (CSE)."
