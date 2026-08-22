@@ -17,7 +17,7 @@
 
 - title: "Design and Implementation of a Single-Core RISC CPU: From RTL to GDSII"
   image: assets/img/project_img_placeholder.jpg
-  description: "Independently designed a 16-bit single-core CPU with a MIPS-like ISA and AXI4 interfaces for instruction and data memory, then carried it through the entire ASIC design flow from RTL to GDSII — logic synthesis, floorplanning, automatic place & route, and final layout generation. Verified with RTL, gate-level, and post-layout simulation, plus STA, LVS, and DRC using industry-standard CAD tools."
+  description: "Independently designed a 16-bit single-core CPU with a MIPS-like ISA and AXI4 interfaces for instruction and data memory, then carried it through the entire ASIC design flow from RTL to GDSII — logic synthesis, floorplanning, automatic place & route (APR), and final layout generation. Verified with RTL, gate-level, and post-layout simulation, plus STA, LVS, and DRC using industry-standard CAD tools."
   venue: "Course Project, Integrated Circuit Design Laboratory (Prof. Chen-Yi Lee), NYCU"
   year: 2024
   selected: true
