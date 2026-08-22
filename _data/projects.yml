@@ -15,15 +15,13 @@
     Report: https://github.com/lashhw/ntu-advanced-compiler-hw4/blob/main/report.pdf
     Code: https://github.com/lashhw/ntu-advanced-compiler-hw4
 
-- title: "Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving"
+- title: "Design and Implementation of a Single-Core RISC CPU: From RTL to GDSII"
   image: assets/img/project_img_placeholder.jpg
-  description: "Led the team to 1st place (out of 12 teams) on multimodal understanding of autonomous driving corner cases. Enhanced LLaVA by combining LoRA fine-tuning with cross-attention layers that fuse segmentation, instance, depth, and ViT features, enabling the model to reason over complex driving scenarios. Also built a data augmentation pipeline over generated QA pairs to iteratively refine the training set."
-  venue: "Course Team Project, Deep Learning for Computer Vision (Prof. Yu-Chiang Frank Wang), NTU"
+  description: "Independently designed a 16-bit single-core CPU with a MIPS-like ISA and AXI4 interfaces for instruction and data memory, then carried it through the entire ASIC design flow from RTL to GDSII — logic synthesis, floorplanning, automatic place & route, and final layout generation. Verified with RTL, gate-level, and post-layout simulation, plus STA, LVS, and DRC using industry-standard CAD tools."
+  venue: "Course Project, Integrated Circuit Design Laboratory (Prof. Chen-Yi Lee), NYCU"
   year: 2024
   selected: true
-  links:
-    Poster: https://github.com/lashhw/DLCV-Fall-2024-Final-1-uber603/blob/main/poster.pdf
-    Code: https://github.com/lashhw/DLCV-Fall-2024-Final-1-uber603
+  note: "Source code is not publicly available due to course policy."
 
 - title: "Hardware Design & Verification Flow for AQB8 Ray Tracing Accelerator"
   image: assets/img/project_img_placeholder.jpg
@@ -35,13 +33,15 @@
     Paper: https://doi.org/10.1145/3695053.3731104
     Code: https://github.com/nycu-caslab/AQB8
 
-- title: "Design and Implementation of a Single-Core RISC CPU: From RTL to GDSII"
+- title: "Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving"
   image: assets/img/project_img_placeholder.jpg
-  description: "Independently designed a 16-bit single-core CPU with a MIPS-like ISA and AXI4 interfaces for instruction and data memory, then carried it through the entire ASIC design flow from RTL to GDSII — logic synthesis, floorplanning, automatic place & route, and final layout generation. Verified with RTL, gate-level, and post-layout simulation, plus STA, LVS, and DRC using industry-standard CAD tools."
-  venue: "Course Project, Integrated Circuit Design Laboratory (Prof. Chen-Yi Lee), NYCU"
+  description: "Led the team to 1st place (out of 12 teams) on multimodal understanding of autonomous driving corner cases. Enhanced LLaVA by combining LoRA fine-tuning with cross-attention layers that fuse segmentation, instance, depth, and ViT features, enabling the model to reason over complex driving scenarios. Also built a data augmentation pipeline over generated QA pairs to iteratively refine the training set."
+  venue: "Course Team Project, Deep Learning for Computer Vision (Prof. Yu-Chiang Frank Wang), NTU"
   year: 2024
   selected: true
-  note: "Source code is not publicly available due to course policy."
+  links:
+    Poster: https://github.com/lashhw/DLCV-Fall-2024-Final-1-uber603/blob/main/poster.pdf
+    Code: https://github.com/lashhw/DLCV-Fall-2024-Final-1-uber603
 
 - title: "Circuit Routers based on Greedy, Heuristic, and SAT Algorithms"
   image: assets/img/project_img_placeholder.jpg
