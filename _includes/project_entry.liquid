@@ -31,6 +31,13 @@
         </div>
       {% endif %}
       <div class="links">
+        {% assign paper = site.data.bib[include.project.bibkey] %}
+        {% if paper.doi %}
+          <a href="https://doi.org/{{ paper.doi }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
+        {% endif %}
+        {% if paper.code %}
+          <a href="{{ paper.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        {% endif %}
         {% for link in include.project.links %}
           <a href="{{ link[1] }}" class="btn btn-sm z-depth-0" role="button">{{ link[0] }}</a>
         {% endfor %}

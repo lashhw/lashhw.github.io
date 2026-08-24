@@ -3,17 +3,14 @@
   description: "Built the training and serving stack behind our EMNLP 2026 paper, which introduces KV Admission alongside KV Selection and Eviction. Trained a lightweight per-head write gate by self-distillation from the frozen full-attention model, then built a dual-cache paged memory manager and sparse prefill/decode kernels that turn the resulting ragged per-head caches into 2.6–4.2x prefill and 1.6–2.6x decode speedups."
   venue: "Master's Thesis, NTU"
   year: 2026
-  links:
-    Paper: https://doi.org/10.48550/arXiv.2512.17452
-    Code: https://github.com/EMCLab-Sinica/WG-KV
+  bibkey: "wgkv"
 
 - title: "STM32 Deployment and Benchmarking Toolchain for Multi-Branch TinyML"
   image: assets/img/project_img_placeholder.jpg
   description: "Built the deployment and benchmarking toolchain for our TCAD 2026 paper on DupNAS, a framework that jointly optimizes neural architecture and multi-branch tensor splitting to fit vision models onto resource-constrained microcontrollers. It turns the searched networks into real STM32 measurements via tile-by-tile ONNX rewriting and deployment through TensorFlow Lite Micro and STM32Cube.AI."
   venue: "Research Project, Embedded and Mobile Computing Lab (Prof. Pi-Cheng Hsiu), Academia Sinica"
   year: 2026
-  links:
-    Code: https://github.com/EMCLab-Sinica/DupNAS-AE
+  bibkey: "dupnas"
 
 - title: "Linux Kernel Programming: Syscall Interception and Page-Table Manipulation"
   image: assets/img/project_img_placeholder.jpg
@@ -46,9 +43,7 @@
   venue: "Research Project, Computer Architecture System Laboratory (Prof. Tsung Tai Yeh), NYCU"
   year: 2024
   selected: true
-  links:
-    Paper: https://doi.org/10.1145/3695053.3731104
-    Code: https://github.com/nycu-caslab/AQB8
+  bibkey: "aqb8"
 
 - title: "Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving"
   image: assets/img/project_img_placeholder.jpg
