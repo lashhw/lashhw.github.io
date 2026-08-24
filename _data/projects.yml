@@ -37,9 +37,9 @@
   selected: true
   note: "Source code is not publicly available due to course policy."
 
-- title: "Hardware Design & Verification Flow for AQB8 Ray Tracing Accelerator"
+- title: "AQB8 Ray Tracing Accelerator: From HLS to FPGA and ASIC"
   image: assets/img/project_img_placeholder.jpg
-  description: "Led the end-to-end development for the AQB8 accelerator behind our ISCA 2025 paper, from architectural exploration to implementation and final analysis. FPGA-based prototyping on Xilinx Zynq with Vitis HLS, Vivado, and PetaLinux; standard-cell ASIC flow on TSMC 40nm with Catapult HLS and Design Compiler; functional verification with QuestaSim and power analysis with PrimePower."
+  description: "Led the hardware development behind our ISCA 2025 paper on AQB8, a ray tracing (RT) accelerator that replaces FP32 arithmetic with low-bit integer units during BVH traversal. Prototyped it on a Xilinx Zynq FPGA with Vitis HLS, Vivado, and PetaLinux, then took the same design through a TSMC 40nm standard-cell ASIC flow using Catapult HLS, Design Compiler, QuestaSim, and PrimePower for 27% less area and 49% lower energy than modern GPU RT accelerators."
   venue: "Research Project, Computer Architecture System Laboratory (Prof. Tsung Tai Yeh), NYCU"
   year: 2024
   selected: true
