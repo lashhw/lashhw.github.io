@@ -1,3 +1,12 @@
+- title: "WG-KV: Learned KV Admission for Efficient Long-Context LLM Inference"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Built the training and serving stack behind our EMNLP 2026 paper, which introduces KV Admission alongside KV Selection and Eviction. Trained a lightweight per-head write gate by self-distillation from the frozen full-attention model, then built a dual-cache paged memory manager and sparse prefill/decode kernels that turn the resulting ragged per-head caches into 2.6–4.2x prefill and 1.6–2.6x decode speedups."
+  venue: "Master's Thesis, NTU"
+  year: 2026
+  links:
+    Paper: https://doi.org/10.48550/arXiv.2512.17452
+    Code: https://github.com/EMCLab-Sinica/WG-KV
+
 - title: "STM32 Deployment and Benchmarking Toolchain for Multi-Branch TinyML"
   image: assets/img/project_img_placeholder.jpg
   description: "Built the deployment and benchmarking toolchain for our TCAD 2026 paper on DupNAS, a framework that jointly optimizes neural architecture and multi-branch tensor splitting to fit vision models onto resource-constrained microcontrollers. It turns the searched networks into real STM32 measurements via tile-by-tile ONNX rewriting and deployment through TensorFlow Lite Micro and STM32Cube.AI."
