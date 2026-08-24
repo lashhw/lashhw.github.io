@@ -1,3 +1,11 @@
+- title: "STM32 Deployment and Benchmarking Toolchain for Multi-Branch TinyML"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Built the deployment and benchmarking toolchain for our TCAD 2026 paper on DupNAS, a framework that jointly optimizes neural architecture and multi-branch tensor splitting to fit vision models onto resource-constrained microcontrollers. It turns the searched networks into real STM32 measurements via tile-by-tile ONNX rewriting and deployment through TensorFlow Lite Micro and STM32Cube.AI."
+  venue: "Research Project, Embedded and Mobile Computing Lab (Prof. Pi-Cheng Hsiu), Academia Sinica"
+  year: 2026
+  links:
+    Code: https://github.com/EMCLab-Sinica/DupNAS-AE
+
 - title: "Linux Kernel Programming: Syscall Interception and Page-Table Manipulation"
   image: assets/img/project_img_placeholder.jpg
   description: "Built a loadable kernel module that hides itself from the module list, masquerades process names, and filters syscalls per-process by hooking the syscall table. Also added a custom ARM64 Linux syscall that exposes a process's page tables to user space, and built a <code>userfaultfd</code> handler that walks the page-table hierarchy to translate addresses and install page-table entries on demand."
