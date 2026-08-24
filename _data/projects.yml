@@ -129,6 +129,7 @@
   venue: "Course Project, Introduction to Deep Learning and Applications (Prof. Hung-Hsun Chen), NYCU"
   year: 2021
   links:
+    Report: https://github.com/lashhw/Intro-to-DL-Final-Project/blob/main/report.pdf
     Code: https://github.com/lashhw/Intro-to-DL-Final-Project
 
 - title: "Web-Based Search Tool for College Admission Requirements"
