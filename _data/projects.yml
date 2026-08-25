@@ -29,6 +29,16 @@
     Report: https://github.com/lashhw/ntu-advanced-compiler-hw4/blob/main/report.pdf
     Code: https://github.com/lashhw/ntu-advanced-compiler-hw4
 
+- title: "Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Led the team to 1st place (out of 12 teams) on multimodal understanding of autonomous driving corner cases. Enhanced LLaVA by combining LoRA fine-tuning with cross-attention layers that fuse segmentation, instance, depth, and ViT features, enabling the model to reason over complex driving scenarios. Also built a data augmentation pipeline over generated QA pairs to iteratively refine the training set."
+  venue: "Course Team Project, Deep Learning for Computer Vision (Prof. Yu-Chiang Frank Wang), NTU"
+  year: 2024
+  selected: true
+  links:
+    Poster: https://github.com/lashhw/DLCV-Fall-2024-Final-1-uber603/blob/main/poster.pdf
+    Code: https://github.com/lashhw/DLCV-Fall-2024-Final-1-uber603
+
 - title: "Design and Implementation of a Single-Core RISC CPU: From RTL to GDSII"
   image: assets/img/project_img_placeholder.jpg
   description: "Independently designed a 16-bit single-core CPU with a MIPS-like ISA and AXI4 interfaces for instruction and data memory, then carried it through the entire ASIC design flow from RTL to GDSII, covering logic synthesis, floorplanning, automatic place & route (APR), and final layout generation. Verified with RTL, gate-level, and post-layout simulation, plus STA, LVS, and DRC using industry-standard CAD tools."
@@ -45,24 +55,6 @@
   selected: true
   bibkey: "aqb8"
 
-- title: "Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving"
-  image: assets/img/project_img_placeholder.jpg
-  description: "Led the team to 1st place (out of 12 teams) on multimodal understanding of autonomous driving corner cases. Enhanced LLaVA by combining LoRA fine-tuning with cross-attention layers that fuse segmentation, instance, depth, and ViT features, enabling the model to reason over complex driving scenarios. Also built a data augmentation pipeline over generated QA pairs to iteratively refine the training set."
-  venue: "Course Team Project, Deep Learning for Computer Vision (Prof. Yu-Chiang Frank Wang), NTU"
-  year: 2024
-  selected: true
-  links:
-    Poster: https://github.com/lashhw/DLCV-Fall-2024-Final-1-uber603/blob/main/poster.pdf
-    Code: https://github.com/lashhw/DLCV-Fall-2024-Final-1-uber603
-
-- title: "Circuit Routers based on Greedy, Heuristic, and SAT Algorithms"
-  image: assets/img/project_img_placeholder.jpg
-  description: "Implemented channel, global, and detailed circuit routers based on foundational research papers, applying optimization techniques to NP-hard routing problems. Targeted the ISPD 2008 contest benchmarks for the global router and used MaxSAT/ILP solvers for exact detailed routing; all routers were validated against the provided specifications, achieving leading results among peers in the course."
-  venue: "Course Project, The Applications of Algorithms on Routing Problems (Prof. Yih-Lang Li), NYCU"
-  year: 2023
-  links:
-    Code: https://github.com/lashhw/routing-lab
-
 - title: "Domain-Specific Accelerator for MLP Inference on an FPGA SoC"
   image: assets/img/project_img_placeholder.jpg
   description: "Designed a domain-specific accelerator that offloads handwritten-digit MLP inference from an FPU-less soft-core CPU on a Xilinx Artix-7 FPGA. Reordered the computation to keep the floating-point multiply-adder saturated, replicated the datapath for data parallelism, and used BRAM-backed FIFOs to overlap host transfers with computation, resulting in a combined 309× speedup over the software-only baseline."
@@ -71,14 +63,6 @@
   links:
     Report: https://github.com/lashhw/mspi-dsa/blob/main/report.pdf
     Code: https://github.com/lashhw/mspi-dsa
-
-- title: "Linux API Sandbox and Instruction-Level Debugger"
-  image: assets/img/project_img_placeholder.jpg
-  description: "Built two low-level Linux tools from scratch. The first enforces an API blacklist on unmodified binaries, injecting a shared library via <code>__libc_start_main()</code> and parsing the ELF to rewrite GOT entries, so file, network, and shell calls can be interposed. The second is a ptrace-based debugger with on-the-fly disassembly, gdb-style <code>int3</code> breakpoints, and a time-travel command backed by <code>fork()</code> snapshots."
-  venue: "Course Project, Advanced Programming in the UNIX Environment (Prof. Chun-Ying Huang), NYCU"
-  year: 2023
-  links:
-    Code: https://github.com/lashhw/unixprog-hw
 
 - title: "Parallel Ray Tracer with SIMD, OpenMP, MPI, and CUDA"
   image: assets/img/project_img_placeholder.jpg
@@ -104,6 +88,22 @@
   venue: Research Project, NYCU and MediaTek Advanced Research Center (MARC)
   year: 2023
   note: "Source code is not publicly available due to NDA restrictions."
+
+- title: "Circuit Routers based on Greedy, Heuristic, and SAT Algorithms"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Implemented channel, global, and detailed circuit routers based on foundational research papers, applying optimization techniques to NP-hard routing problems. Targeted the ISPD 2008 contest benchmarks for the global router and used MaxSAT/ILP solvers for exact detailed routing; all routers were validated against the provided specifications, achieving leading results among peers in the course."
+  venue: "Course Project, The Applications of Algorithms on Routing Problems (Prof. Yih-Lang Li), NYCU"
+  year: 2023
+  links:
+    Code: https://github.com/lashhw/routing-lab
+
+- title: "Linux API Sandbox and Instruction-Level Debugger"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Built two low-level Linux tools from scratch. The first enforces an API blacklist on unmodified binaries, injecting a shared library via <code>__libc_start_main()</code> and parsing the ELF to rewrite GOT entries, so file, network, and shell calls can be interposed. The second is a ptrace-based debugger with on-the-fly disassembly, gdb-style <code>int3</code> breakpoints, and a time-travel command backed by <code>fork()</code> snapshots."
+  venue: "Course Project, Advanced Programming in the UNIX Environment (Prof. Chun-Ying Huang), NYCU"
+  year: 2023
+  links:
+    Code: https://github.com/lashhw/unixprog-hw
 
 - title: "Mini-Pascal Compiler: From Source Code to JVM Bytecode"
   image: assets/img/project_img_placeholder.jpg
