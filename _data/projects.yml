@@ -34,7 +34,7 @@
   description: "Led the team to 1st place (out of 12 teams) on multimodal understanding of autonomous driving corner cases. Enhanced LLaVA by combining LoRA fine-tuning with cross-attention layers that fuse segmentation, instance, depth, and ViT features, enabling the model to reason over complex driving scenarios. Also built a data augmentation pipeline over generated QA pairs to iteratively refine the training set."
   venue: "Course Team Project, Deep Learning for Computer Vision (Prof. Yu-Chiang Frank Wang), NTU"
   year: 2024
-  selected: true
+  selected: 3
   links:
     Poster: https://github.com/lashhw/DLCV-Fall-2024-Final-1-uber603/blob/main/poster.pdf
     Code: https://github.com/lashhw/DLCV-Fall-2024-Final-1-uber603
@@ -44,7 +44,7 @@
   description: "Independently designed a 16-bit single-core CPU with a MIPS-like ISA and AXI4 interfaces for instruction and data memory, then carried it through the entire ASIC design flow from RTL to GDSII, covering logic synthesis, floorplanning, automatic place & route (APR), and final layout generation. Verified with RTL, gate-level, and post-layout simulation, plus STA, LVS, and DRC using industry-standard CAD tools."
   venue: "Course Project, Integrated Circuit Design Laboratory (Prof. Chen-Yi Lee), NYCU"
   year: 2024
-  selected: true
+  selected: 1
   note: "Source code is not publicly available due to course policy."
 
 - title: "AQB8 Ray Tracing Accelerator: From HLS to FPGA and ASIC"
@@ -52,7 +52,7 @@
   description: "Led the hardware development behind our ISCA 2025 paper on AQB8, a ray tracing (RT) accelerator that replaces FP32 arithmetic with low-bit integer units during BVH traversal. Prototyped it on a Xilinx Zynq FPGA with Vitis HLS, Vivado, and PetaLinux, then took the same design through a TSMC 40nm standard-cell ASIC flow using Catapult HLS, Design Compiler, QuestaSim, and PrimePower for 27% less area and 49% lower energy than modern GPU RT accelerators."
   venue: "Research Project, Computer Architecture System Laboratory (Prof. Tsung Tai Yeh), NYCU"
   year: 2024
-  selected: true
+  selected: 2
   bibkey: "aqb8"
 
 - title: "Domain-Specific Accelerator for MLP Inference on an FPGA SoC"

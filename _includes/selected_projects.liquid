@@ -1,13 +1,11 @@
-{% assign years = site.data.projects | where: 'selected', true | group_by: 'year' | sort: 'name' | reverse %}
+{% assign selected_projects = site.data.projects | where_exp: 'project', 'project.selected' | sort: 'selected' %}
 
 {% include project_description_assets.liquid %}
 
 <div class="publications">
   <ol class="bibliography">
-    {% for year in years %}
-      {% for project in year.items %}
-        {% include project_entry.liquid project=project %}
-      {% endfor %}
+    {% for project in selected_projects %}
+      {% include project_entry.liquid project=project %}
     {% endfor %}
   </ol>
 </div>
