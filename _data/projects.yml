@@ -82,7 +82,7 @@
 
 - title: "Parallel Ray Tracer with SIMD, OpenMP, MPI, and CUDA"
   image: assets/img/project_img_placeholder.jpg
-  description: "Built a ray tracing renderer from scratch, then parallelized it with SIMD intrinsics, OpenMP, MPI, and CUDA, guided by a loop-level analysis of where parallelism actually pays off across pixels, samples, bounces, and vector components. Tuned the CUDA implementation further with coalesced memory access and a split-kernel design that lowers register pressure to improve occupancy."
+  description: "Built a ray tracer from scratch, then parallelized it with SIMD intrinsics, OpenMP, MPI, and CUDA, guided by a loop-level analysis of where parallelism actually pays off across pixels, samples, bounces, objects, and vector components. Tuned the CUDA implementation further with coalesced memory access and a split-kernel design that lowers register pressure to improve occupancy."
   venue: "Course Team Project, Parallel Programming (Prof. Yi-Ping You), NYCU"
   year: 2023
   links:
@@ -92,7 +92,7 @@
 
 - title: Memory-Efficient Attention Operator for TensorFlow Lite Micro
   image: assets/img/project_img_placeholder.jpg
-  description: "Investigated the challenges of deploying Transformer models on microcontrollers (TinyML) through TensorFlow Lite for Microcontrollers, and identified the Multi-Head Attention layer as the critical SRAM bottleneck during on-device inference. Developed and implemented a custom TFLM operator that reduces peak SRAM requirement by over 90% (from 17MB to ~1MB) for the MobileViT-XXS model."
+  description: "Investigated the challenges of deploying Transformer models on microcontrollers (TinyML) through TensorFlow Lite for Microcontrollers (TFLM), and identified the Multi-Head Attention layer as the critical SRAM bottleneck during on-device inference. Developed and implemented a custom TFLM operator that reduces peak SRAM requirement by over 90% (from 17MB to ~1MB) for the MobileViT-XXS model."
   venue: Summer Internship, Embedded and Mobile Computing Lab (Prof. Pi-Cheng Hsiu), Academia Sinica
   year: 2023
   links:
@@ -100,7 +100,7 @@
 
 - title: Mixed-Precision Ray Tracing for Mobile Platforms
   image: assets/img/project_img_placeholder.jpg
-  description: "Collaboration with MediaTek on reducing the memory bandwidth demand of ray tracing (RT) accelerators on mobile platforms. Built a functional path tracer supporting physically-based rendering and parallel traversal, then designed a novel mixed-precision RT algorithm validated via SystemC/TLM simulation, achieving 20% memory savings for key RT data structures."
+  description: "Collaboration with MediaTek on reducing the memory bandwidth demand of ray tracing (RT) accelerators on mobile platforms. Built a ray tracer supporting physically-based rendering and parallel BVH traversal, then designed a novel mixed-precision traversal algorithm validated via SystemC TLM simulation, achieving 20% memory savings for key RT data structures."
   venue: Research Project, NYCU and MediaTek Advanced Research Center (MARC)
   year: 2023
   note: "Source code is not publicly available due to NDA restrictions."
