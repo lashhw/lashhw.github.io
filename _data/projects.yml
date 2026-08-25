@@ -20,6 +20,14 @@
   links:
     Code: https://github.com/lashhw/ssdi-hw
 
+- title: "AQB8 Ray Tracing Accelerator: From HLS to FPGA and ASIC"
+  image: assets/img/project_img_placeholder.jpg
+  description: "Led the hardware development behind our ISCA 2025 paper on AQB8, a ray tracing (RT) accelerator that replaces FP32 arithmetic with low-bit integer units during BVH traversal. Prototyped it on a Xilinx Zynq FPGA with Vitis HLS, Vivado, and PetaLinux, then took the same design through a TSMC 40nm standard-cell ASIC flow using Catapult HLS, Design Compiler, QuestaSim, and PrimePower for 27% less area and 49% lower energy than modern GPU RT accelerators."
+  venue: "Research Project, Computer Architecture System Laboratory (Prof. Tsung Tai Yeh), NYCU"
+  year: 2025
+  selected: 2
+  bibkey: "aqb8"
+
 - title: "Dataflow Graph Extraction in LLVM for High-Level Synthesis"
   image: assets/img/project_img_placeholder.jpg
   description: "Built a custom LLVM compiler pass that turns C++ functions into dataflow graphs, making explicit the computational dependencies that hardware designers rely on to pipeline a design. Working on LLVM's intermediate representation rather than the syntax tree lets the pass compose with existing optimizations such as dead code elimination (DCE) and common subexpression elimination (CSE)."
@@ -38,14 +46,6 @@
   links:
     Poster: https://github.com/lashhw/DLCV-Fall-2024-Final-1-uber603/blob/main/poster.pdf
     Code: https://github.com/lashhw/DLCV-Fall-2024-Final-1-uber603
-
-- title: "AQB8 Ray Tracing Accelerator: From HLS to FPGA and ASIC"
-  image: assets/img/project_img_placeholder.jpg
-  description: "Led the hardware development behind our ISCA 2025 paper on AQB8, a ray tracing (RT) accelerator that replaces FP32 arithmetic with low-bit integer units during BVH traversal. Prototyped it on a Xilinx Zynq FPGA with Vitis HLS, Vivado, and PetaLinux, then took the same design through a TSMC 40nm standard-cell ASIC flow using Catapult HLS, Design Compiler, QuestaSim, and PrimePower for 27% less area and 49% lower energy than modern GPU RT accelerators."
-  venue: "Research Project, Computer Architecture System Laboratory (Prof. Tsung Tai Yeh), NYCU"
-  year: 2024
-  selected: 2
-  bibkey: "aqb8"
 
 - title: "Design and Implementation of a Single-Core RISC CPU: From RTL to GDSII"
   image: assets/img/project_img_placeholder.jpg
