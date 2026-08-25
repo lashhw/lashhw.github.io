@@ -65,7 +65,7 @@
 
 - title: "Domain-Specific Accelerator for MLP Inference on an FPGA SoC"
   image: assets/img/project_img_placeholder.jpg
-  description: "Designed a domain-specific accelerator that offloads the MLP for handwritten digit recognition from an FPU-less soft-core CPU on a Xilinx Artix-7 FPGA. Reordered the computation to keep the floating-point multiply-adder saturated, replicated the datapath for data parallelism, and overlapped host transfers with computation via BRAM-backed FIFOs, achieving a 309x speedup over the software-only baseline."
+  description: "Designed a domain-specific accelerator that offloads handwritten-digit MLP inference from an FPU-less soft-core CPU on a Xilinx Artix-7 FPGA. Reordered the computation to keep the floating-point multiply-adder saturated, replicated the datapath for data parallelism, and used BRAM-backed FIFOs to overlap host transfers with computation — achieving a combined 309× speedup over the software-only baseline."
   venue: "Course Project, Microprocessor Systems: Principles and Implementation (Prof. Chun-Jen Tsai), NYCU"
   year: 2023
   links:
