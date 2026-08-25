@@ -74,7 +74,7 @@
 
 - title: "Linux API Sandbox and Instruction-Level Debugger"
   image: assets/img/project_img_placeholder.jpg
-  description: "Built two low-level Linux tools in C from scratch. The first enforces an API blacklist on unmodified binaries, injecting a shared library via <code>__libc_start_main()</code> and parsing the ELF to rewrite GOT entries, so file, network, and shell calls can be interposed. The second is a ptrace-based debugger with on-the-fly disassembly, gdb-style <code>int3</code> breakpoints, and a time-travel command backed by <code>fork()</code> snapshots."
+  description: ""
   venue: "Course Project, Advanced Programming in the UNIX Environment (Prof. Chun-Ying Huang), NYCU"
   year: 2023
   links:
