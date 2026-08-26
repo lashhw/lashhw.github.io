@@ -7,7 +7,7 @@
 
 - title: "STM32 Deployment and Benchmarking Toolchain for Multi-Branch TinyML"
   image: assets/img/project_img_placeholder.jpg
-  description: "Built the deployment and benchmarking toolchain for our TCAD 2026 paper on DupNAS, a framework that jointly optimizes neural architecture and multi-branch tensor splitting to fit vision models onto resource-constrained microcontrollers. It turns the searched networks into real STM32 measurements via tile-by-tile ONNX rewriting and deployment through TensorFlow Lite Micro and STM32Cube.AI."
+  description: "Built the deployment and benchmarking toolchain for our TCAD 2026 paper on DupNAS, a framework that jointly optimizes neural architecture and multi-branch tensor splitting to fit vision models onto resource-constrained microcontrollers. The toolchain turns the searched networks into real STM32 measurements via tile-by-tile ONNX rewriting and deployment through TensorFlow Lite Micro and STM32Cube.AI."
   venue: "Research Project, Embedded and Mobile Computing Lab (Prof. Pi-Cheng Hsiu), Academia Sinica"
   year: 2026
   bibkey: "dupnas"
