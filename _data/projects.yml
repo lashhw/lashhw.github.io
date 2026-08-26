@@ -89,9 +89,9 @@
   year: 2023
   note: "Source code is not publicly available due to NDA restrictions."
 
-- title: "Circuit Routers based on Greedy, Heuristic, and SAT Algorithms"
+- title: "Channel, Global, and Detailed Routers for VLSI"
   image: assets/img/project_img_placeholder.jpg
-  description: "Implemented channel, global, and detailed circuit routers based on foundational research papers, applying optimization techniques to NP-hard routing problems. Targeted the ISPD 2008 contest benchmarks for the global router and used MaxSAT/ILP solvers for exact detailed routing; all routers were validated against the provided specifications, achieving leading results among peers in the course."
+  description: "Implemented three routers spanning the VLSI routing flow: a greedy channel router, a global router driven by negotiation-based rip-up and reroute, and a detailed router that turns routability into a CNF formula solved by a MaxSAT solver. Together they trace how routing scales, from complete search on small grids to heuristics that handle the ISPD 2008 contest benchmarks."
   venue: "Course Project, The Applications of Algorithms on Routing Problems (Prof. Yih-Lang Li), NYCU"
   year: 2023
   links:
