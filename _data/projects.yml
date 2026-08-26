@@ -1,6 +1,6 @@
 - title: "WG-KV: Learned KV Admission for Efficient Long-Context LLM Inference"
   image: assets/img/project_img_placeholder.jpg
-  description: "Built the training and serving stack behind our EMNLP 2026 paper, which introduces KV Admission alongside KV Selection and Eviction. Trained a lightweight per-head write gate by self-distillation from the frozen full-attention model, then built a dual-cache paged memory manager and sparse prefill/decode kernels that turn the resulting ragged per-head caches into 2.6–4.2x prefill and 1.6–2.6x decode speedups."
+  description: "Built the training and serving stack behind our EMNLP 2026 paper, which introduces KV Admission alongside KV Selection and Eviction. Trained a lightweight per-head write gate by self-distillation from the frozen full-attention model, then built a dual-cache paged manager and sparse prefill/decode kernels over the resulting ragged caches, turning theoretical sparsity into 2.6–4.2x prefill and 1.6–2.6x decode speedups."
   venue: "Master's Thesis, NTU"
   year: 2026
   bibkey: "wgkv"
