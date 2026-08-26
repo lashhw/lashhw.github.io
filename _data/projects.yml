@@ -22,7 +22,7 @@
 
 - title: "AQB8 Ray Tracing Accelerator: From Algorithm to FPGA and ASIC"
   image: assets/img/project_img_placeholder.jpg
-  description: "Led the algorithm and hardware design behind our ISCA 2025 paper on AQB8, a ray tracing (RT) accelerator that replaces FP32 arithmetic with low-bit integer units during BVH traversal. Prototyped it on a Xilinx Zynq FPGA with Vitis HLS, Vivado, and PetaLinux, then took the same design through a TSMC 40nm standard-cell ASIC flow with Catapult HLS, Design Compiler, QuestaSim, and PrimePower, for 49% lower energy and 27% less area than modern GPU RT accelerators."
+  description: "Led the algorithm and hardware design behind our ISCA 2025 paper on AQB8, a ray tracing (RT) accelerator that replaces FP32 with low-bit integer arithmetic during BVH traversal. Prototyped it on a Xilinx Zynq FPGA with Vitis HLS, Vivado, and PetaLinux, then took the same design through a TSMC 40nm standard-cell ASIC flow with Catapult HLS, Design Compiler, QuestaSim, and PrimePower, for 49% lower energy and 27% less area than modern GPU RT accelerators."
   venue: "Research Project, Computer Architecture System Laboratory (Prof. Tsung Tai Yeh), NYCU"
   year: 2025
   selected: 2
