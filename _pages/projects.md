@@ -1,8 +1,8 @@
 ---
 layout: page
+permalink: /projects/
 title: Projects
 description: Listed in reverse chronological order.
-permalink: /projects/
 nav: true
 nav_order: 3
 ---
