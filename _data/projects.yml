@@ -30,7 +30,7 @@
 
 - title: "Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving"
   image: assets/img/project_img_placeholder.jpg
-  description: "Led the team to 1st place (out of 12 teams) on multimodal understanding of autonomous driving corner cases. Enhanced LLaVA by combining LoRA fine-tuning with cross-attention layers that fuse segmentation, instance, depth, and ViT features, enabling the model to reason over complex driving scenarios. Also built a data augmentation pipeline over generated QA pairs to iteratively refine the training set."
+  description: "Led the team to 1st place (out of 12 teams) on multimodal understanding of autonomous driving corner cases. Enhanced LLaVA with LoRA fine-tuning plus cross-attention layers that fuse segmentation, instance, depth, and ViT features, enabling the model to reason over complex driving scenarios. Also built a self-critiquing augmentation loop where a frozen LLaVA compares the fine-tuned model's predictions with the ground truth and turns each missed detail into a new QA pair targeting the model's blind spots."
   venue: "Course Team Project, Deep Learning for Computer Vision (Prof. Yu-Chiang Frank Wang), NTU"
   year: 2024
   selected: 3
@@ -47,7 +47,7 @@
     Report: https://github.com/lashhw/ntu-advanced-compiler-hw4/blob/main/report.pdf
     Code: https://github.com/lashhw/ntu-advanced-compiler-hw4
 
-- title: "Design and Implementation of a Single-Core RISC CPU: From RTL to GDSII"
+- title: "Design and Implementation of a RISC CPU: From RTL to GDSII"
   image: assets/img/project_img_placeholder.jpg
   description: "Independently designed a 16-bit single-core CPU with a MIPS-like ISA and AXI4 interfaces for instruction and data memory, then carried it through the entire ASIC design flow from RTL to GDSII, covering logic synthesis, floorplanning, automatic place & route (APR), and final layout generation. Verified with RTL, gate-level, and post-layout simulation, plus STA, LVS, and DRC using industry-standard CAD tools."
   venue: "Course Project, Integrated Circuit Design Laboratory (Prof. Chen-Yi Lee), NYCU"
