@@ -29,4 +29,4 @@ I am interested in **building efficient computing systems**, across machine lear
 
 I received my M.S. in [Electrical Engineering](https://web.ee.ntu.edu.tw/) from [National Taiwan University](https://www.ntu.edu.tw/) in 2026, where I was fortunate to be advised by [Prof. Pi-Cheng Hsiu](https://homepage.citi.sinica.edu.tw/pages/pchsiu/) and [Prof. Ming-Syan Chen](https://arbor.ee.ntu.edu.tw/~mschen/). Prior to that, I received my B.S. in [Computer Science](https://www.cs.nycu.edu.tw/) from [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/) in 2024, where I did my undergraduate research with [Prof. Tsung Tai Yeh](https://people.cs.nycu.edu.tw/~ttyeh/).
 
-I will be available for full-time positions starting in 2027. Feel free to reach out!
+I will be available for full-time positions starting in 2027. More details can be found in my [CV](https://github.com/lashhw/cv/raw/pdf/yen-chieh-huang.pdf). Feel free to reach out!
