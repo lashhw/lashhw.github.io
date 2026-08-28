@@ -145,6 +145,11 @@
     .social {
       justify-content: center;
     }
+
+    /* `display: contents` stops margin collapsing here, so trim the top margin. */
+    .post > article > h2 {
+      margin-top: 1rem;
+    }
   }
 </style> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Yen-Chieh Huang. Last updated: August 28, 2026. </div> </footer> <script>
   window.alFolio = {
