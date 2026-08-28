@@ -172,5 +172,10 @@ layout: default
     .social {
       justify-content: center;
     }
+
+    /* `display: contents` stops margin collapsing here, so trim the top margin. */
+    .post > article > h2 {
+      margin-top: 1rem;
+    }
   }
 </style>
