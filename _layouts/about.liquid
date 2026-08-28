@@ -9,7 +9,7 @@ layout: default
         {{ site.last_name }}
       {% else %}
         {{ site.title -}}
-        {%- if page.chinese_name %} ({{ page.chinese_name }}){% endif %}
+        {%- if page.chinese_name %} {{ page.chinese_name }}{% endif %}
       {% endif %}
     </h1>
     {% if page.subtitle %}
