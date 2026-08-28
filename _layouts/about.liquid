@@ -84,6 +84,12 @@ layout: default
       {% include selected_projects.liquid %}
     {% endif %}
 
+    <!-- Misc -->
+    {% if page.misc %}
+      <h2>Misc</h2>
+      <div class="misc text-justify">{{ page.misc | markdownify }}</div>
+    {% endif %}
+
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% if site.plugins contains 'al_newsletter' %}
         {% include plugins/al_newsletter_form_center_margin.liquid %}
@@ -122,6 +128,10 @@ layout: default
   }
 
   .post .publications {
+    margin-top: 1rem;
+  }
+
+  .post .misc {
     margin-top: 1rem;
   }
 
