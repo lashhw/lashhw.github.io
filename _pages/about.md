@@ -15,7 +15,7 @@ selected_projects: true # includes a list of projects with a "selected: <rank>" 
 social: true # includes social icons at the bottom of the page
 
 misc: >
-  Away from work, I listen mostly to classical music, especially chamber music and symphonies from the Romantics through the early twentieth century. I also read some psychology.
+  Away from work, I listen mostly to classical music, especially sonatas and concertos from the Romantics through the early twentieth century. I also read some psychology.
 
 announcements:
   enabled: false # includes a list of news items
