@@ -18,6 +18,8 @@
   venue: "Course Team Project, Advanced Topics in Software Systems Design and Implementation (Prof. Shih-Wei Li), NTU"
   year: 2025
   links:
+    Write-up 1: https://github.com/lashhw/ssdi-hw/blob/main/hw1/write-up.md
+    Write-up 2: https://github.com/lashhw/ssdi-hw/blob/main/hw2/write-up.md
     Code: https://github.com/lashhw/ssdi-hw
 
 - title: "AQB8 Ray Tracing Accelerator: From Algorithm to FPGA and ASIC"
