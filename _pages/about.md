@@ -15,7 +15,7 @@ selected_projects: true # includes a list of projects with a "selected: <rank>" 
 social: true # includes social icons at the bottom of the page
 
 misc: >
-  Away from work, I listen mostly to classical music, especially chamber music and orchestral works from the Romantics through the early twentieth century. I'm also drawn to understanding things at a fundamental level, from the inner workings of computers to the nature of intelligence, consciousness, and life.
+  Away from work, I listen mostly to classical music, especially chamber music and orchestral works from the Romantics through the early twentieth century. I'm also drawn to understanding things from the ground up, whether it's the inner workings of computers or the nature of intelligence, consciousness, and life.
 
 announcements:
   enabled: false # includes a list of news items
