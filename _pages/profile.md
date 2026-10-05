@@ -20,7 +20,8 @@ sitemap: false
 
 ## About
 
-{% include bio.md %}
+{% capture bio %}{% include bio.md %}{% endcapture -%}
+{{ bio | rstrip }}
 
 ## Publications
 
