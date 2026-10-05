@@ -1,0 +1,8 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# {{ site.first_name }} {{ site.last_name }}
+
+- [Profile]({{ '/profile.md' | absolute_url }})
