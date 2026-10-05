@@ -15,7 +15,6 @@ I received my M.S. in [Electrical Engineering](https://web.ee.ntu.edu.tw/) from 
 
 I will be available for full-time positions starting in early 2027, after completing my mandatory military service. More details can be found in my [CV](https://lashhw.github.io/cv/yen-chieh-huang.pdf). Feel free to reach out!
 
-
 ## Publications
 
 Listed in reverse chronological order.
