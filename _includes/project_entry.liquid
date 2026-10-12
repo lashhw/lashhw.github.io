@@ -35,6 +35,12 @@
         {% if paper.doi %}
           <a href="https://doi.org/{{ paper.doi }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
         {% endif %}
+        {% if paper.poster %}
+          <a href="{{ paper.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+        {% endif %}
+        {% if paper.video %}
+          <a href="{{ paper.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+        {% endif %}
         {% if paper.code %}
           <a href="{{ paper.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
         {% endif %}
