@@ -23,13 +23,13 @@ Listed in reverse chronological order.
 
 **Authors:** Yen-Chieh Huang; Pi-Cheng Hsiu; Rui Fang; Ming-Syan Chen
 
-**Venue:** To appear in Conference on Empirical Methods in Natural Language Processing (EMNLP)
+**Venue:** Conference on Empirical Methods in Natural Language Processing (EMNLP)
 
 **Year:** 2026
 
 **Abstract:** Long-context LLM inference is bottlenecked by the quadratic attention complexity and linear Key-Value (KV) cache growth. Prior approaches mitigate this via post-hoc selection or eviction but overlook the root inefficiency: indiscriminate token admission. In this paper, we formalize KV management as a causal system of three primitives: KV Admission, Selection, and Eviction. We instantiate KV Admission via Write-Gated KV (WG-KV), a lightweight mechanism that learns to predict token utility before cache entry. By filtering out redundant states early to maintain a compact global cache alongside a sliding local cache, WG-KV significantly reduces memory usage and accelerates both prefill and decode phases. Our results demonstrate that learning what to write is a principled and practical recipe for efficient long-context inference. Code is available at https://github.com/EMCLab-Sinica/WG-KV.
 
-- [Paper](https://doi.org/10.48550/arXiv.2512.17452)
+- [Paper](https://doi.org/10.18653/2026.emnlp-main.1063)
 - [Code](https://github.com/EMCLab-Sinica/WG-KV)
 
 ### Splitting Bottlenecks: Memory-Aware Neural Architecture Search for Multi-Branch TinyML
@@ -72,7 +72,7 @@ Built the training and serving stack behind our EMNLP 2026 paper, which introduc
 
 **Related publication:** KV Admission: Learning What to Write for Efficient Long-Context LLM Inference
 
-- [Paper](https://doi.org/10.48550/arXiv.2512.17452)
+- [Paper](https://doi.org/10.18653/2026.emnlp-main.1063)
 - [Code](https://github.com/EMCLab-Sinica/WG-KV)
 
 ### STM32 Deployment and Benchmarking Toolchain for Multi-Branch TinyML
