@@ -105,7 +105,7 @@ Built a loadable kernel module that hides itself from the module list, masquerad
 
 **Year:** 2025
 
-Led the algorithm and hardware design behind our ISCA 2025 paper on AQB8, a ray tracing (RT) accelerator that replaces FP32 with low-bit integer arithmetic during BVH traversal. Prototyped it on a Xilinx Zynq FPGA with Vitis HLS, Vivado, and PetaLinux, then took the same design through a TSMC 40nm standard-cell ASIC flow with Catapult HLS, Design Compiler, QuestaSim, and PrimePower, for 49% lower energy and 27% less area than modern GPU RT accelerators.
+Led the algorithm and hardware design behind our ISCA 2025 paper on AQB8, a ray tracing (RT) accelerator that replaces FP32 with low-bit integer arithmetic during BVH traversal. Prototyped it on a Zynq UltraScale+ MPSoC FPGA with Vitis HLS, Vivado, and PetaLinux, then took the same design through a TSMC 40nm standard-cell ASIC flow with Catapult HLS, Design Compiler, QuestaSim, and PrimePower, for 49% lower energy and 27% less area than modern GPU RT accelerators.
 
 **Related publication:** AQB8: Energy-Efficient Ray Tracing Accelerator through Multi-Level Quantization
 
