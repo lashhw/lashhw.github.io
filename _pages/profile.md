@@ -15,6 +15,7 @@ sitemap: false
 
 - Email: {{ site.contact_note }}
 - [CV]({{ site.data.socials.cv_pdf | absolute_url }})
+- [Slides]({{ '/assets/pdf/slides.pdf' | absolute_url }})
 - [GitHub](https://github.com/{{ site.data.socials.github_username }})
 - [LinkedIn](https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }})
 
